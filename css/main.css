@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+  
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.corona-info{
+    list-style: none;
+}
+.corona-facts{
+    width: 1200px;
+    height: 133px;
+    display: flex;
+    list-style-type: none;
+    background: #F6F6F9;;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.local-information{
+    width: 1200px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+
+
+
+.rectangle{
+    margin-left: 42px;
+    margin-right: 28px;
+}
+
+.local-information{
+   list-style: none;
+   display: flex;
+}
+
+.about-sardoba{
+    margin: 7px;
+    width: 386px;
+
+}
+
+.container-notification{
+    width: 1200px;
+    height: 91px;
+    background: rgba(239, 186, 84, 0.18);
+    text-align: center;
+    
+}
+
+.info-icon{
+    display: flex;
+    width: 1200px;
+    height: 91px;
+    background: rgba(239, 186, 84, 0.18);
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.info-icon h3{
+    margin-left: 20px;
+}
+
+.notification-link{
+    width: 264px;
+    height: 42px;
+    background-color: #fe5c28;
+    color: #ffffff;
+    margin-left: 320px;
+    border-radius: 5px;
+}
